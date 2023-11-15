@@ -1,816 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join BetterTogether Fit - your online community for personalized fitness coaching, nutrition guidance, and accountability support. Start your journey today!"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Techx - Make Chat Easy</title>
+    <title>BetterTogetherFit - Reach Your Goals</title>
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link
+      rel="icon"
+      href="./assets/images/Favicon Original.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Favicon Original.ico"
+      type="image/x-icon"
+    />
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-  <!-- 
-    - preload image
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<body id="top">
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
-    - #HEADER
-  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+  </head>
 
-  <header class="header" data-header>
-    <div class="container">
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <h1>
+          <a href="#" class="logo">BetterTogetherFit</a>
+        </h1>
 
-      <h1>
-        <a href="#" class="logo">Techx</a>
-      </h1>
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
 
-      <nav class="navbar container" data-navbar>
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
 
-          <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
-          </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
 
-          <li class="navbar-item">
-            <a href="#services" class="navbar-link" data-nav-link>Services</a>
-          </li>
+            <li class="navbar-item">
+              <a
+                href="https://www.bettertogether.day"
+                class="navbar-link"
+                data-nav-link
+                target="_blank"
+                rel="noopener noreferrer"
+                >App</a
+              >
+            </li>
 
-          <li class="navbar-item">
-            <a href="#features" class="navbar-link" data-nav-link>Features</a>
-          </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
-          </li>
+        <a
+          class="btn btn-secondary"
+          href="https://www.bettertogether.day"
+          data-nav-link
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Our App
+        </a>
 
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Blog</a>
-          </li>
+        <button
+          class="nav-toggle-btn"
+          aria-label="Toggle menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+      </div>
+    </header>
 
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
-          </li>
+    <main>
+      <article>
+        <section class="section hero" id="home">
+          <div class="container">
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/Wordpress Transparent.png"
+                width="804"
+                height="643"
+                loading="lazy"
+                alt="Start your fitness journey with BetterTogetherFit"
+                class="w-100"
+              />
+            </figure>
 
-        </ul>
-      </nav>
+            <div class="hero-content">
+              <h2 class="h1 hero-title">
+                Discover Your Potential with BetterTogetherFit
+              </h2>
 
-      <button class="btn btn-secondary">Get Started</button>
+              <p class="section-text">
+                At BetterTogetherFit we believe in the power of community and
+                personalized support to transform your fitness journey. Whether
+                you're taking your first step into fitness or you're an
+                experienced athlete looking to excel, our online coaching
+                platform is designed to cater to your unique needs.
+              </p>
 
-      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
-        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
-        <ion-icon name="close-outline" class="close-icon"></ion-icon>
-      </button>
+              <form
+                action="https://formspree.io/f/mvojnzbd"
+                method="POST"
+                class="hero-form"
+              >
+                <input
+                  action="https://formspree.io/f/mknlaovp"
+                  type="email"
+                  name="email_address"
+                  placeholder="Enter Your Email"
+                  aria-label="Enter Your Email"
+                  required
+                  class="input-field"
+                />
 
-    </div>
-  </header>
+                <button type="submit" class="btn btn-primary">
+                  Free Consult
+                </button>
+              </form>
 
+              <ul class="hero-list">
+                <li class="hero-item">
+                  <img
+                    src="./assets/images/check-circle.svg"
+                    width="16"
+                    height="16"
+                    loading="lazy"
+                    alt="Checkmark icon"
+                  />
 
+                  <span class="span">Strength Training</span>
+                </li>
 
+                <li class="hero-item">
+                  <img
+                    src="./assets/images/check-circle.svg"
+                    width="16"
+                    height="16"
+                    loading="lazy"
+                    alt="Checkmark icon"
+                  />
 
+                  <span class="span">Weight Loss</span>
+                </li>
 
-  <main>
-    <article>
+                <li class="hero-item">
+                  <img
+                    src="./assets/images/check-circle.svg"
+                    width="16"
+                    height="16"
+                    loading="lazy"
+                    alt="Checkmark icon"
+                  />
 
-      <!-- 
-        - #HERO
-      -->
+                  <span class="span">Nutrition</span>
+                </li>
 
-      <section class="section hero" id="home">
-        <div class="container">
+                <li class="hero-item">
+                  <img
+                    src="./assets/images/check-circle.svg"
+                    width="16"
+                    height="16"
+                    loading="lazy"
+                    alt="Checkmark icon"
+                  />
 
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="804" height="643" loading="lazy" alt="hero banner"
-              class="w-100">
-          </figure>
+                  <span class="span">Powerlifting</span>
+                </li>
 
-          <div class="hero-content">
+                <li class="hero-item">
+                  <img
+                    src="./assets/images/check-circle.svg"
+                    width="16"
+                    height="16"
+                    loading="lazy"
+                    alt="Checkmark icon"
+                  />
 
-            <h2 class="h1 hero-title">Make Chat Easy For Today's Digital Customers</h2>
-
-            <p class="section-text">
-              Techx is the ecommerce helpdesk center that turns your customer service into a profit center without any
-              delay and
-              increase your sale.
-            </p>
-
-            <form action="" class="hero-form">
-              <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="Enter Your Email"
-                required class="input-field">
-
-              <button type="submit" class="btn btn-primary">Start Free Trial</button>
-            </form>
-
-            <ul class="hero-list">
-
-              <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
-
-                <span class="span">Live Chat</span>
-              </li>
-
-              <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
-
-                <span class="span">Ticketing</span>
-              </li>
-
-              <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
-
-                <span class="span">Knowledge Base</span>
-              </li>
-
-              <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
-
-                <span class="span">Chat pages</span>
-              </li>
-
-              <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
-
-                <span class="span">Team chat</span>
-              </li>
-
-            </ul>
-
+                  <span class="span">Accountability</span>
+                </li>
+              </ul>
+            </div>
           </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
+        </section>
+      </article>
       <section class="section service" id="services">
         <div class="container">
-
           <h2 class="h2 section-title">Our Solutions For You</h2>
 
-          <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque
-            venenatis,
-            massa gravida donec orci.
-          </p>
-
           <ul class="service-list">
-
             <li>
               <div class="service-card">
-
                 <figure class="card-banner">
-                  <img src="./assets/images/service-1.gif" width="728" height="344" loading="lazy" alt="support"
-                    class="w-100">
+                  <img
+                    src="./assets/images/service-1.gif"
+                    width="728"
+                    height="344"
+                    loading="lazy"
+                    alt="support"
+                    class="w-100"
+                  />
                 </figure>
 
                 <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Support</a>
-                  </h3>
+                  <h3 class="h3">Unwavering Support</h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis consectetur
-                    adipiscing elit.
+                    An accountability system bolstered by a community that
+                    motivates and uplifts.
                   </p>
-
-                  <a href="#" class="btn-link">
-                    <span class="span">Learn More</span>
-
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                  </a>
-
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="service-card">
-
                 <figure class="card-banner">
-                  <img src="./assets/images/service-2.gif" width="728" height="344" loading="lazy" alt="Engagement"
-                    class="w-100">
+                  <img
+                    src="./assets/images/service-2.gif"
+                    width="728"
+                    height="344"
+                    loading="lazy"
+                    alt="Engagement"
+                    class="w-100"
+                  />
                 </figure>
 
                 <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Engagement</a>
-                  </h3>
+                  <h3 class="h3">Fitness Programs</h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis consectetur
-                    adipiscing elit.
+                    Customizable training regimes that evolve with your fitness
+                    level and goals.
                   </p>
-
-                  <a href="#" class="btn-link">
-                    <span class="span">Learn More</span>
-
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                  </a>
-
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="service-card">
-
                 <figure class="card-banner">
-                  <img src="./assets/images/service-3.gif" width="728" height="344" loading="lazy" alt="Marketing"
-                    class="w-100">
+                  <img
+                    src="./assets/images/service-3.gif"
+                    width="728"
+                    height="344"
+                    loading="lazy"
+                    alt="Marketing"
+                    class="w-100"
+                  />
                 </figure>
 
                 <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Marketing</a>
-                  </h3>
+                  <h3 class="h3">Nutritional Expertise</h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis consectetur
-                    adipiscing elit.
+                    Balanced, adaptable eating strategies to complement your
+                    training regimen.
                   </p>
-
-                  <a href="#" class="btn-link">
-                    <span class="span">Learn More</span>
-
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                  </a>
-
                 </div>
-
               </div>
             </li>
-
           </ul>
-
         </div>
       </section>
-
-
-
-
-
-      <!-- 
-        - #FEATURES
-      -->
-
-      <section class="section features" id="features">
-        <div class="container">
-
-          <div class="features-content">
-
-            <h2 class="h2 section-title">Our Awesome Features To Serve You</h2>
-
-            <p class="section-text">
-              Planning, tracking and delivering your team’s best work has never been easier. We make it easiest for you
-              through the
-              software.
-            </p>
-
-            <ul class="features-list">
-
-              <li class="features-item">
-                <img src="./assets/images/features-icon-1.svg" width="26" height="26" loading="lazy" aria-hidden="true"
-                  class="item-icon">
-
-                <h3 class="item-title">Automate Instagram</h3>
-              </li>
-
-              <li class="features-item">
-                <img src="./assets/images/features-icon-2.svg" width="26" height="26" loading="lazy" aria-hidden="true"
-                  class="item-icon">
-
-                <h3 class="item-title">Drive Sale</h3>
-              </li>
-
-              <li class="features-item">
-                <img src="./assets/images/features-icon-3.svg" width="26" height="26" loading="lazy" aria-hidden="true"
-                  class="item-icon">
-
-                <h3 class="item-title">Get More Leads</h3>
-              </li>
-
-              <li class="features-item">
-                <img src="./assets/images/features-icon-4.svg" width="26" height="26" loading="lazy" aria-hidden="true"
-                  class="item-icon">
-
-                <h3 class="item-title">Engage Prospects</h3>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <div class="banner-wrapper">
-
-            <figure class="features-banner one">
-              <img src="./assets/images/features-banner-1.gif" width="600" height="500" loading="lazy"
-                alt="features image" class="w-100">
-            </figure>
-
-            <figure class="features-banner two">
-              <img src="./assets/images/features-banner-2.png" width="436" height="311" loading="lazy"
-                alt="features image" class="w-100">
-            </figure>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
 
       <section class="section about" id="about">
         <div class="container">
-
           <h2 class="h2 section-title">What We Do</h2>
 
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque
-            venenatis,
-            massa gravida donec orci.
+            BetterTogetherFit is more than a training program—it's a movement
+            towards collective achievement. Our platform is not just about
+            individual goals; it's about advancing together, with each milestone
+            celebrated and every setback transformed into a stepping stone for
+            success. Join us at BetterTogether Fit, where your fitness evolution
+            is a shared adventure. Because together, we're not just strong—we're
+            unstoppable.
           </p>
 
           <ul class="about-list">
-
             <li>
               <div class="about-card about-card-1">
-
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-1.svg" width="94" height="94" loading="lazy"
-                    alt="Automated Ticket Routing">
+                  <img
+                    src="./assets/images/about-img-1.svg"
+                    width="94"
+                    height="94"
+                    loading="lazy"
+                    alt="General Fitness"
+                  />
                 </figure>
 
                 <div class="card-content">
-
                   <h3 class="h3">
-                    <a href="#" class="card-title">Automated Ticket Routing</a>
+                    <a href="#" class="card-title"> General Fitness</a>
                   </h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                    Whether you're aiming to shed pounds, build strength, or
+                    simply enhance your overall well-being, our personalized
+                    programs are designed to align with your unique goals.
                   </p>
-
-                  <a href="#" class="btn-link">
-                    <span class="span">Learn More</span>
-
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                  </a>
-
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="about-card about-card-2">
-
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-2.svg" width="94" height="94" loading="lazy"
-                    alt="Workflow Automation">
+                  <img
+                    src="./assets/images/about-img-2.svg"
+                    width="94"
+                    height="94"
+                    loading="lazy"
+                    alt="Powerlifting"
+                  />
                 </figure>
 
                 <div class="card-content">
-
                   <h3 class="h3">
-                    <a href="#" class="card-title">Workflow Automation</a>
+                    <a href="#" class="card-title">Powerlifting</a>
                   </h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                    From the moment you grip your first barbell to the
+                    adrenaline-fueled rush of meet day, we're with you through
+                    every squat, bench, and deadlift.
                   </p>
-
-                  <a href="#" class="btn-link">
-                    <span class="span">Learn More</span>
-
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                  </a>
-
                 </div>
-
               </div>
             </li>
-
             <li>
               <div class="about-card about-card-3">
-
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-3.svg" width="94" height="94" loading="lazy"
-                    alt="Automated Callback">
+                  <img
+                    src="./assets/images/Favicon Transparent.ico"
+                    width="94"
+                    height="94"
+                    loading="lazy"
+                    alt="Automated Callback"
+                  />
                 </figure>
 
                 <div class="card-content">
-
                   <h3 class="h3">
-                    <a href="#" class="card-title">Automated Callback</a>
+                    <a href="https://www.bettertogether.day/" class="card-title"
+                      >BetterTogether App</a
+                    >
                   </h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                    A comprehensive fitness app that bridges the gap between you
+                    and your fitness goals, connecting you seamlessly with your
+                    trainer. As a client, you can effortlessly track your
+                    progress, weight, and workouts over time, ensuring you stay
+                    on track and motivated.
                   </p>
 
-                  <a href="#" class="btn-link">
+                  <a
+                    href="https://www.bettertogether.day/"
+                    class="btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span class="span">Learn More</span>
-
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
                   </a>
-
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="about-card about-card-4">
-
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-4.svg" width="94" height="94" loading="lazy"
-                    alt="Customer Feedback Surveys">
+                  <img
+                    src="./assets/images/Transparent BarsLoaded Logo.png"
+                    width="94"
+                    height="94"
+                    loading="lazy"
+                    alt="Customer Feedback Surveys"
+                  />
                 </figure>
 
                 <div class="card-content">
-
                   <h3 class="h3">
-                    <a href="#" class="card-title">Customer Feedback Surveys</a>
+                    <a
+                      href="https://www.barsloaded.net/"
+                      class="card-title"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Bar's Loaded</a
+                    >
                   </h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                    A user-friendly app for weightlifters, effortlessly guiding
+                    barbell loading with visuals for any chosen weight. It's
+                    ideal for both beginners and experienced lifters, ensuring
+                    accuracy and confidence in every session.
                   </p>
 
-                  <a href="#" class="btn-link">
+                  <a
+                    href="https://www.barsloaded.net/"
+                    class="btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span class="span">Learn More</span>
-
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
                   </a>
-
                 </div>
-
               </div>
             </li>
-
           </ul>
+        </div>
+      </section>
 
+      <section class="section contact" id="contact">
+        <div class="container">
+          <h2 class="h1 section-title">Get in Touch</h2>
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget gravida facilisis maecenas vitae.
-            <a href="#" class="btn-link">
-              <span class="span">View All Features</span>
-
-              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-            </a>
+            We're here to help and answer any question you might have. We look
+            forward to hearing from you.
           </p>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #STATS
-      -->
-
-      <section class="section stats">
-        <div class="container">
-
-          <figure class="stats-banner">
-            <img src="./assets/images/stats-banner.png" width="619" height="482" loading="lazy" alt="stats"
-              class="w-100">
-          </figure>
-
-          <ul class="stats-list">
-
-            <li class="stats-item purple">
-              <h3 class="item-title">
-                386
-                <span class="span">million</span>
-              </h3>
-
-              <p class="stats-text">Human Actions Saved On Techx</p>
-            </li>
-
-            <li class="stats-item red">
-              <h3 class="item-title">
-                999
-                <span class="span">million</span>
-              </h3>
-
-              <p class="stats-text">Users Throughout The World</p>
-            </li>
-
-            <li class="stats-item green">
-              <h3 class="item-title">
-                200
-                <span class="span">percent</span>
-              </h3>
-
-              <p class="stats-text">Revenue Growth</p>
-            </li>
-
-            <li class="stats-item yellow">
-              <h3 class="item-title">
-                50
-                <span class="span">software</span>
-              </h3>
-
-              <p class="stats-text">Integration Support In Techx</p>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #APP
-      -->
-
-      <section class="section app">
-        <div class="container">
-
-          <div class="app-content">
-
-            <h2 class="h2 section-title">Download Mobile App To Stay Connected</h2>
-
-            <p class="section-text">
-              Techx Projects gives you the added advantage of several other Techx apps and third party apps through
-              seamless
-              integrations.
-            </p>
-
-            <div class="btn-group">
-
-              <a href="#" class="btn btn-primary">
-                <img src="./assets/images/play-store.svg" width="30" height="31" loading="lazy" alt="play store icon">
-
-                <span class="span">
-                  GET IT ON
-                  <strong class="strong">Google Play</strong>
-                </span>
-              </a>
-
-              <a href="#" class="btn btn-secondary">
-                <img src="./assets/images/apple-store.svg" width="30" height="31" loading="lazy" alt="apple store icon">
-
-                <span class="span">
-                  GET IT ON
-                  <strong class="strong">Apple Store</strong>
-                </span>
-              </a>
-
+          <form
+            action="https://formspree.io/f/mknlaovp"
+            method="POST"
+            class="contact-form"
+          >
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="input-field"
+                placeholder="Name"
+              />
             </div>
-
-          </div>
-
-          <figure class="app-banner">
-            <img src="./assets/images/app-banner.png" width="748" height="536" loading="lazy" alt="app screenshot"
-              class="w-100">
-          </figure>
-
+            <div class="form-group">
+              <label for="email" class="form-label">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="input-field"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                class="input-field"
+                placeholder="Write your message here"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
         </div>
       </section>
-
-
-
-
-
-      <!-- 
-        - #SUPPORT
-      -->
-
-      <section class="section support">
+    </main>
+    <footer>
+      <div class="footer-bottom">
         <div class="container">
-
-          <div class="support-content">
-            <h2 class="h2 section-title">24/7 Customer Support</h2>
-
-            <p class="section-text">
-              Our team is here to provide you with personalized and outstanding service. We also offer a range of
-              self-learning tools
-              in our support center:
-            </p>
-          </div>
-
-          <a href="#" class="btn btn-primary">Contact Us Now</a>
-
+          <p class="copyright">
+            &copy; 2023 <span class="span">BetterTogetherFit</span>.
+          </p>
         </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-
-    <div class="footer-top section">
-      <div class="container">
-
-        <div class="footer-brand">
-          <a href="#" class="logo">Techx</a>
-
-          <figure class="footer-img">
-            <img src="./assets/images/footer-img.png" width="264" height="226" loading="lazy" aria-hidden="true"
-              class="w-100">
-          </figure>
-        </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Services</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Web Design</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Web Development</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Social Marketing</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">WordPress</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Content Writing</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Quick Links</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Portfolio</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Pricing Plan</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">FAQ</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Download Apps</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Contact Us</p>
-          </li>
-
-          <li class="footer-item">
-            <img src="./assets/images/contact-icon-1.svg" width="16" height="16" loading="lazy" aria-hidden="true">
-
-            <span class="span">
-              Call Us:
-              <a href="tel:+3237501234" class="footer-item-link">+(323) 750-1234</a>
-            </span>
-          </li>
-
-          <li class="footer-item">
-            <img src="./assets/images/contact-icon-2.svg" width="16" height="16" loading="lazy" aria-hidden="true">
-
-            <span class="span">
-              Address:
-              <a href="#" class="footer-item-link">Vermont Ave, Los Angeles, CA 90044</a>
-            </span>
-          </li>
-
-          <li class="footer-item">
-            <img src="./assets/images/contact-icon-3.svg" width="16" height="16" loading="lazy" aria-hidden="true">
-
-            <span class="span">
-              Mail Us:
-              <a href="mailto:hello@Techx.com" class="footer-item-link">hello@Techx.com</a>
-            </span>
-          </li>
-
-        </ul>
-
       </div>
-    </div>
+    </footer>
 
-    <div class="footer-bottom">
-      <div class="container">
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="Back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
 
-        <p class="copyright">
-          &copy; 2022 <span class="span">Techx</span>. All rights reserved by <a href="#"
-            class="copyright-link">codewithsadee</a>
-        </p>
+    <script src="./assets/js/script.js" defer></script>
 
-        <ul class="footer-bottom-list">
-
-          <li>
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-bottom-link">Security</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-
-  </footer>
-
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
-  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
-    <ion-icon name="chevron-up"></ion-icon>
-  </a>
-
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js" defer></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
